@@ -54,7 +54,7 @@ $ rails _5.1.2_ new hello_app
 
 ```sh
 $ git config --global user.name "Your Name"
-$ git config --global user.email your.email@example.com
+$ git config --global user.email "your.email@example.com"
 $ git remote add origin git@github.com:vijayshankar037/hello_app.git
 ```
 
@@ -79,6 +79,7 @@ $ heroku rename developebabu-rails
 $ heroku apps:info --app example
 $ heroku apps:info --remote production
 $ heroku run rails db:migrate
+$ heroku logs
 ```
 
 *Remove multiple file from a DIR
